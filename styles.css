@@ -1,0 +1,77 @@
+
+h3{
+    display: flex;
+    padding-top: 0;
+}
+
+
+body {
+    width: 330px;
+    height: 660px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: serif;
+    box-shadow: 7px 7px 5px #888888;
+    border: 1px solid rgb(165, 162, 162);
+    font-size: small;
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)  
+}
+  
+img {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+p {
+    float: left;
+    text-align: justify; 
+    font-size: small;
+}
+
+ 
+ul {
+    float: left;
+    /*The dots are removed from the animal's list items.*/
+    list-style: none;
+    padding-left: 0;
+
+}
+   
+
+div  {
+     padding: 1em;
+     padding-top: 0;
+}
+
+img  {
+    padding-bottom:1em;
+}
+
+li {
+    text-align: left;    
+}
+
+span {
+    /*The labels are bolded for the animal’s list items.*/
+    font-weight: bold;
+}
+
+
+body div div  {
+    border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0em;
+}
+
+.italic {
+    /*The text is italicized for the animal’s interesting fact.*/
+    font-style: italic;
+}        
