@@ -56,7 +56,7 @@ Separates HTML from CSS by linking to stylesheet.
 
 ```
 
-Use list tag <li> to make a required list.
+Use list tag "li" to make a required list.
   
 ```
 <ul>
